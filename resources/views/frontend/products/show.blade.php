@@ -20,7 +20,7 @@
 					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-				</div> 
+				</div>
 			</div><!-- /.container-fluid -->
 		</div>
 	@endif
@@ -85,7 +85,7 @@
 						</div>
 						<p>{{ $product->short_description }}</p>
                         <form action="{{ route('carts.store') }}" method="post">
-							@csrf 
+							@csrf
 							<input type="hidden" name="product_id" value="{{ $product->id }}">
 							@if ($product->type == 'configurable')
 								<div class="quick-view-select">
@@ -131,11 +131,11 @@
 						<div class="product-details-cati-tag mtb-10">
 							<ul>
 								<li class="categories-title">Tags :</li>
-								<li><a href="#">fashion</a></li>
-								<li><a href="#">electronics</a></li>
-								<li><a href="#">toys</a></li>
-								<li><a href="#">food</a></li>
-								<li><a href="#">jewellery</a></li>
+								<li><a href="#">Furniture</a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
+								<li><a href="#"></a></li>
 							</ul>
 						</div>
 						<div class="product-share">
@@ -168,6 +168,20 @@
 			</div>
 		</div>
 	</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-5 col-12">
+                <h1>Model 3D</h1>
+                    <<div class="column">
+                        <x3d width="230px" height="140px">
+                            <scene>
+                                <inline mapDEFToID="true" url="MejaTex3.x3d"></inline>
+                            </scene>
+                        </x3d>
+                    </div>
+            </div>
+        </div>
+    </div>
 	<div class="product-description-review-area pb-90">
 		<div class="container">
 			<div class="product-description-review text-center">
