@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('themes/ezone/assets/img/favicon.png') }}">
-		
+
 		<!-- all css here -->
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/magnific-popup.css') }}">
@@ -45,8 +45,8 @@
                         <div class="menu-style-2 furniture-menu menu-hover">
                             <nav>
                                 <ul>
-                                    <li><a href="/">home</a>
-                                        <ul class="single-dropdown">
+                                    <li><a href="/">Home</a>
+                                        {{-- <ul class="single-dropdown">
                                             <li><a href="index.html">Fashion</a></li>
                                             <li><a href="index-fashion-2.html">Fashion style 2</a></li>
                                             <li><a href="index-fruits.html">fruits</a></li>
@@ -58,9 +58,9 @@
                                             <li><a href="index-handicraft.html">handicraft</a></li>
                                             <li><a target="_blank" href="index-smart-watch.html">smart watch</a></li>
                                             <li><a href="index-sports.html">sports</a></li>
-                                        </ul>
+                                        </ul> --}}
                                     </li>
-                                    <li><a href="#">pages</a>
+                                    {{-- <li><a href="#">pages</a>
                                         <ul class="single-dropdown">
                                             <li><a href="about-us.html">about us</a></li>
                                             <li><a href="menu-list.html">menu list</a></li>
@@ -71,12 +71,12 @@
                                             <li><a href="wishlist.html">wishlist</a></li>
                                             <li><a href="contact.html">contact</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="{{ url('products') }}">shop</a>
-                                        <div class="category-menu-dropdown shop-menu">
+                                    </li> --}}
+                                    <li><a href="welcome">Kustomisasi</a>
+                                        {{-- <div class="category-menu-dropdown shop-menu">
                                             <div class="category-dropdown-style category-common2 mb-30">
                                                 <h4 class="categories-subtitle"> shop layout</h4>
-                                                <ul>
+                                                {{-- <ul>
                                                     <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
                                                     <li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
                                                     <li><a href="shop.html">grid 4 column</a></li>
@@ -86,11 +86,11 @@
                                                     <li><a href="shop-list-box.html">list box style</a></li>
                                                     <li><a href="cart.html">shopping cart</a></li>
                                                     <li><a href="wishlist.html">wishlist</a></li>
-                                                </ul>
-                                            </div>
+                                                </ul> --}}
+                                            {{-- </div>
                                             <div class="category-dropdown-style category-common2 mb-30">
-                                                <h4 class="categories-subtitle"> product details</h4>
-                                                <ul>
+                                                <h4 class="categories-subtitle"> product details</h4> --}}
+                                                {{-- <ul>
                                                     <li><a href="product-details.html">tab style 1</a></li>
                                                     <li><a href="product-details-2.html">tab style 2</a></li>
                                                     <li><a href="product-details-3.html"> tab style 3</a></li>
@@ -100,23 +100,23 @@
                                                     <li><a href="product-details-7.html">gallery style 2</a></li>
                                                     <li><a href="product-details-8.html">fixed image style</a></li>
                                                     <li><a href="product-details-9.html">fixed image style 2</a></li>
-                                                </ul>
-                                            </div>
+                                                </ul> --}}
+                                            {{-- </div>
                                             <div class="mega-banner-img">
                                                 <a href="single-product.html">
                                                     <img src="{{ asset('themes/ezone/assets/img/banner/18.jpg') }}" alt="">
                                                 </a>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </li>
-                                    <li><a href="blog.html">blog</a>
+                                    {{-- <li><a href="blog.html">blog</a>
                                         <ul class="single-dropdown">
                                             <li><a href="blog.html">blog 3 colunm</a></li>
                                             <li><a href="blog-2-col.html">blog 2 colunm</a></li>
                                             <li><a href="blog-sidebar.html">blog sidebar</a></li>
                                             <li><a href="blog-details.html">blog details</a></li>
                                             <li><a href="blog-details-sidebar.html">blog details 2</a></li>
-                                        </ul>
+                                        </ul> --}}
                                     </li>
                                     <li><a href="contact.html">contact</a></li>
                                 </ul>
@@ -169,7 +169,7 @@
                                 <nav id="mobile-menu-active">
                                     <ul class="menu-overflow">
                                         <li><a href="#">HOME</a>
-                                            <ul>
+                                            {{-- <ul>
                                                 <li><a href="index.html">Fashion</a></li>
                                                 <li><a href="index-fashion-2.html">Fashion style 2</a></li>
                                                 <li><a href="index-fruits.html">Fruits</a></li>
@@ -181,9 +181,9 @@
                                                 <li><a href="index-handicraft.html">handicraft</a></li>
                                                 <li><a href="index-smart-watch.html">smart watch</a></li>
                                                 <li><a href="index-sports.html">sports</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
-                                        <li><a href="#">pages</a>
+                                        {{-- <li><a href="#">pages</a>
                                             <ul>
                                                 <li><a href="about-us.html">about us</a></li>
                                                 <li><a href="menu-list.html">menu list</a></li>
@@ -194,9 +194,9 @@
                                                 <li><a href="wishlist.html">wishlist</a></li>
                                                 <li><a href="contact.html">contact</a></li>
                                             </ul>
-                                        </li>
-                                        <li><a href="#">shop</a>
-                                            <ul>
+                                        </li> --}}
+                                        <li><a href="#">Kustomisasi</a>
+                                            {{-- <ul>
                                                 <li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
                                                 <li><a href="shop-grid-3-col.html"> grid 3 column</a></li>
                                                 <li><a href="shop.html">grid 4 column</a></li>
@@ -213,9 +213,9 @@
                                                 <li><a href="product-details-7.html">gallery style 2</a></li>
                                                 <li><a href="product-details-8.html">fixed image style</a></li>
                                                 <li><a href="product-details-9.html">fixed image style 2</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
-                                        <li><a href="#">BLOG</a>
+                                        {{-- <li><a href="#">BLOG</a>
                                             <ul>
                                                 <li><a href="blog.html">blog 3 colunm</a></li>
                                                 <li><a href="blog-2-col.html">blog 2 colunm</a></li>
@@ -223,10 +223,10 @@
                                                 <li><a href="blog-details.html">blog details</a></li>
                                                 <li><a href="blog-details-sidebar.html">blog details 2</a></li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                         <li><a href="contact.html"> Contact  </a></li>
                                     </ul>
-                                </nav>							
+                                </nav>
                             </div>
                         </div>
                     </div>
@@ -272,9 +272,9 @@
             </div>
         </header>
         <!-- end -->
-        
+
         @yield('content')
-       
+
         <!-- services -->
         <div class="services-area wrapper-padding-4 gray-bg pt-120 pb-80">
             <div class="container-fluid">
@@ -285,7 +285,7 @@
                         </div>
                         <div class="services-content">
                             <h4>Free Shippig</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <p>Pengiriman gratis dengan ketentuan dan syarat berlaku. </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
@@ -294,7 +294,7 @@
                         </div>
                         <div class="services-content">
                             <h4>24/7 Support</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <p>Siap melayani kendala anda dalam berbelanja 24 jam per 7 hari. </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
@@ -303,7 +303,7 @@
                         </div>
                         <div class="services-content">
                             <h4>Secure Payments</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <p>Layanan pembayaran yang terjamin dan aman untuk digunakan. </p>
                         </div>
                     </div>
                 </div>
@@ -319,7 +319,7 @@
                         <div class="footer-widget mb-30">
                             <a href="#"><img src="{{ asset('themes/ezone/assets/img/logo/2.png') }}" alt=""></a>
                             <div class="footer-about-2">
-                                <p>There are many variations of passages of Lorem Ipsum <br>the majority have suffered alteration in some form, by <br> injected humour</p>
+                                <p>Bisnis furnitur kami melangkah maju dengan mantap, <br>diperkuat oleh desain yang ikonik dan inovasi terus-menerus.  <br> Pelanggan kami tidak hanya mendapatkan furnitur, <br>tetapi juga menghadirkan seni dan fungsionalitas di setiap sudut rumah.</p>
                             </div>
                         </div>
                         <div class="footer-widget mb-30">
@@ -330,7 +330,7 @@
                                         <span>Address: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p>66 Sipu road Rampura Banasree <br>USA- 10800</p>
+                                        <p>694V+H7J, Jl. Ipda Tut Harsono, Muja Muju, <br> Kec. Umbulharjo Kota Yogyakarta</p>
                                     </div>
                                 </div>
                                 <div class="footer-address-furniture">
@@ -338,7 +338,7 @@
                                         <span>Phone: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p>+8801 (33) 515609735 <br>+8801 (66) 223352333</p>
+                                        <p>+62 87738780947 </p>
                                     </div>
                                 </div>
                                 <div class="footer-address-furniture">
@@ -346,7 +346,7 @@
                                         <span>E-mail: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p><a href="#"> email@domain.com</a> <br><a href="#"> domain@mail.info</a></p>
+                                        <p><a href="#"> udlarisjogja@gmail.com</a> <br><a href="#">web : udlaris.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -375,7 +375,7 @@
                     <div class="row">
                         <div class="col-12 text-center">
                             <div class="copyright-furniture">
-                                <p>Copyright © <a href="https://hastech.company/">HasTech</a> 2018 . All Right Reserved.</p>
+                                <p>Copyright © <a href="https://udlaris.com/">UD_Laris</a> 2023 . All Right Reserved.</p>
                             </div>
                         </div>
                     </div>
@@ -534,7 +534,7 @@
         </div>
         <!-- end -->
 
-		
+
 		<!-- all js here -->
         <script src="{{ asset('themes/ezone/assets/js/vendor/jquery-1.12.0.min.js') }}"></script>
         <script src="{{ asset('themes/ezone/assets/js/popper.js') }}"></script>

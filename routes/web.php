@@ -78,3 +78,48 @@ Route::post('payments/notification', [\App\Http\Controllers\Frontend\PaymentCont
 Route::get('payments/completed', [\App\Http\Controllers\Frontend\PaymentController::class, 'completed']);
 Route::get('payments/failed', [\App\Http\Controllers\Frontend\PaymentController::class, 'failed']);
 Route::get('payments/unfinish', [\App\Http\Controllers\Frontend\PaymentController::class, 'unfinish']);
+
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
+Route::get('/meja', function () {
+    return view('kategori/meja');
+});
+
+Route::get('/rak', function () {
+    return view('kategori/rak');
+});
+
+Route::get('/rak1', function () {
+    return view('rak/rak1');
+});
+
+Route::get('/rak2', function () {
+    return view('rak/rak2');
+});
+
+Route::get('/rak3', function () {
+    return view('rak/rak3');
+});
+
+Route::get('/lemari', function () {
+    return view('kategori/lemari');
+});
+
+Route::get('/kostum', function () {
+    return view('kostum');
+});
+
+Route::get('mejap', function () {
+    return view('meja/mejap');
+});
+
+Route::get('mejab', function () {
+    return view('meja/mejab');
+});
+
+Route::get('mejas', function () {
+    return view('meja/mejas');
+});

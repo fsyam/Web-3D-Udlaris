@@ -4,10 +4,10 @@
 	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/bg/breadcrumb.jpg') }})">
 		<div class="container-fluid">
 			<div class="breadcrumb-content text-center">
-				<h2>shop grid 3 column</h2>
+				<h2>shop</h2>
 				<ul>
 					<li><a href="#">home</a></li>
-					<li>shop grid 3 column</li>
+					<li></li>
 				</ul>
 			</div>
 		</div>
@@ -30,7 +30,7 @@
                                             <input type="hidden" id="productMinPrice" value="{{ $minPrice }}"/>
                                             <input type="hidden" id="productMaxPrice" value="{{ $maxPrice }}"/>
                                         </div>
-                                        <button type="submit">Filter</button> 
+                                        <button type="submit">Filter</button>
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@
                                 </div>
                             </div>
                         @endif
-                        
+
                         @if ($colors)
                             <div class="sidebar-widget sidebar-overflow mb-45">
                                 <h3 class="sidebar-title">color</h3>
